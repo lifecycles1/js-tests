@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quiz {
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.first-page,
+.final-page {
+    text-align: center;
+}
+
+.answers label {
+    display: block;
+}
